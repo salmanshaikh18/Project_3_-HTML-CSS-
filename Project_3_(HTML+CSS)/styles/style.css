@@ -1,0 +1,110 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+header nav .logo {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    left:55px;
+}
+
+.logo img {
+    height:30px;
+    padding:0 20px;
+    padding-right:31px;
+}
+header nav {
+    height:12vh;
+    background-color: #000;
+    display:flex;
+    gap:10%;
+    padding:20px 0;
+}
+
+header nav ul {
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    gap:30px;
+}
+
+header nav ul li {
+    list-style:none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color:white;
+    font-weight:700;
+}
+
+header nav .tokenbutton button {
+    /* padding:10px 30px; */
+    padding:10px 20px;
+    border:none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#ffffff;
+    background-color: #ba0cc5;
+    position:absolute;
+    overflow:hidden;
+    right:5vw;
+    border-radius:5%;
+    cursor:pointer;
+    font-weight:600;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+    color:#ba0cc5;
+}
+body {
+    background-image: url("https://raw.githubusercontent.com/salmanshaikh18/fullstackwebdevelopment/main/Assignment_03(HTML%2BCSS)/assets/bg.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+section {
+    height:85vh;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    color:white;
+}
+
+section h1 {
+    font-size:4.5em;
+    padding:0 260px;
+    font-weight: 900;
+    position:relative;
+}
+
+section p {
+    font-size:2em;
+    font-weight:700;
+    position:relative;
+    top:15px;
+}
+
+section button {
+    color:#ffffff;
+    background-color:#ba0cc5;
+    border:none;
+    padding:20px 44px;
+    font-size:1em;
+    font-weight:600;
+    border-radius:10%;
+    margin-top:53px;
+    position:relative;
+    top:12px;
+}

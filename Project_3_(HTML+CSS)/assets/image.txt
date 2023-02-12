@@ -1,0 +1,3 @@
+bg image : https://raw.githubusercontent.com/salmanshaikh18/fullstackwebdevelopment/main/Assignment_03(HTML%2BCSS)/assets/bg.png
+
+logo : https://raw.githubusercontent.com/salmanshaikh18/fullstackwebdevelopment/main/Assignment_03(HTML%2BCSS)/assets/white-logo.png
